@@ -90,12 +90,10 @@
           JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
 
           <div class="w3-container">
-<<<<<<< HEAD
             <code> if (true) { var x = 5; } console.log(x); // 5 
               
             </code>
           </div> 
-=======
             <code> if (true) { var x = 5; } console.log(x); // 5 </code>
           </div>
           <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.
@@ -103,14 +101,13 @@
           <code>
             if (true) { let y = 5; } console.log(y); // ReferenceError: y is not
                     defined</code>
->>>>>>> aed21275efe5706b6e19aca0560093af0137ae19
       </section>
 
     </main>   
 <nav id="navbar">
   <header>documentation</header>
   <a class="nav-link" href="#Introduction">Introduction</a>
-  <a class="main-section" href="#What_you_should_already_know">What you should already know</a>
+  <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
   <a class="main-section" href="#JavaScript_and_Java">JavaScript and Java</a>
   <a class="main-section" href="#Hello_world">Hello world</a>
   <a class="main-section" href="#Variables">Variables</a>
