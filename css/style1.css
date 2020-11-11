@@ -1,0 +1,73 @@
+body{
+  margin-left: 165px;;
+  padding: 0;
+  background-color: rgb(209, 128, 189);
+  
+}
+header{
+  font: outline;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ a:hover {
+  color: #d10505;
+  transform: scale(1.5);
+}
+
+.left{
+  
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0; 
+    left: 0;
+    background-color: rgb(133, 180, 231);
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.left a{
+  padding: 6px 8px 20px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  color: black;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+@media screen and (max-width: 500px) {
+.body{
+  font-size: 10px;
+  background-color: rgb(161, 215, 236);
+}
+  
+}
+.left a:hover{
+  color: red;
+  transform: scale(1.1);
+}
+
+
+
+.left header{
+  font-size: 22px;
+  padding-left: 2px;
+}
+.code{
+  background-color: rgba(165, 210, 213, 0.926);
+  padding: 10px 0px 10px 30px;
+  margin-right: 20px;
+  
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-color: lavender;
+  }
+}
+.footer ul li a:hover{
+  transform: scale(1.5);
+}
